@@ -1,0 +1,17 @@
+::ng-deep .mat-expansion-panel{
+    background-color: red;
+  }
+
+  .mat-expansion-panel::after{
+    background-color: red;
+  }
+
+  .mat-expansion-panel-header {
+    background-color: red;
+  }
+  /* .mat-expansion-panel-header::after {
+    background-color: red;
+  } */
+  .mat-expansion-panel-header::before {
+    background-color: red;
+  }
